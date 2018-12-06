@@ -1,20 +1,13 @@
 <template>
   <div id="app">
-    <div class="content-fluid">
-      <v-menu></v-menu>
-      <v-login></v-login>
-    </div>
+    <img src="./assets/logo.png">
+    <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app',
-  data () {
-    return {
-      msg: 'bien y tu'
-    }
-  }
+  name: 'App'
 }
 </script>
 
@@ -25,23 +18,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+  margin-top: 60px;
 }
 </style>
