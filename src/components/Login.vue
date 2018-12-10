@@ -13,10 +13,11 @@
                     <br/>
                   </div>
                   <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                    <p class="message" >Ingresa tu RUT</p>
+                    <p class="message" >RUT</p>
                     <div class="input-group input-search text-search">
                       <input ref='rutInput' class="form-control form-control-sm message" type="text" aria-label="Search" maxlength="12">
                     </div>
+                    <br />
                     <p class="message" >Contraseña</p>
                     <div class="input-group input-search text-search">
                       <input ref='rutInput' class="form-control form-control-sm message" type="text" aria-label="Search"  maxlength="12">
@@ -28,7 +29,7 @@
                   </div>
                   <div class="col-12 col-sm-12 col-md-12 div-search text-left">
                     <br/>
-                    <button type="button" class="btn btn-sm btn-search btn-secondary">Ingresar</button>
+                    <button type="button" class="btn btn-sm btn-search">Ingresar</button>
                   </div>
                 </div>
               </div>
@@ -174,8 +175,6 @@
 }
 .input-search{
   width: 100%;
-  border: 0.0625rem solid rgba(185, 185, 185, 1);
-  border-radius: 0.25rem;
   color :var(--text-secondary);
 }
 .txt-searching{
@@ -188,6 +187,7 @@
 }
 .btn-search {
   background-color: var(--primary-color);
+  border-color: var(--primary-color);
   font-size: 1rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 1);
