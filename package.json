@@ -15,7 +15,11 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "express": "^4.16.4",
+    "node-sass": "^4.11.0",
+    "rut-helpers": "^0.1.1",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
